@@ -1,2 +1,2 @@
-# keychain
+# 🔑 keychain 
 Simple macOS keychain wrapper
