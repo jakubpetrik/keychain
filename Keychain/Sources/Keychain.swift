@@ -1,3 +1,5 @@
+import Foundation
+
 public final class Keychain {
     private let identifier: String
     private lazy var values: NSMutableDictionary = {
