@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AF6095D1D277DA900D6B01B /* Keychain macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF6095C1D277DA900D6B01B /* Keychain macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF609661D27803100D6B01B /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF609651D27803100D6B01B /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AF609591D277DA900D6B01B /* Keychain macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Keychain macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF6095C1D277DA900D6B01B /* Keychain macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Keychain macOS.h"; sourceTree = "<group>"; };
-		4AF6095E1D277DA900D6B01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF609591D277DA900D6B01B /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF609631D277EF600D6B01B /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Sources/Info-macOS.plist"; sourceTree = "<group>"; };
+		4AF609651D27803100D6B01B /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keychain.h; path = Sources/Keychain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +30,7 @@
 		4AF6094D1D277C5200D6B01B = {
 			isa = PBXGroup;
 			children = (
+				4AF609621D277EE100D6B01B /* Sources */,
 				4AF6095B1D277DA900D6B01B /* Keychain macOS */,
 				4AF6095A1D277DA900D6B01B /* Products */,
 			);
@@ -38,7 +39,7 @@
 		4AF6095A1D277DA900D6B01B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AF609591D277DA900D6B01B /* Keychain macOS.framework */,
+				4AF609591D277DA900D6B01B /* Keychain.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +47,17 @@
 		4AF6095B1D277DA900D6B01B /* Keychain macOS */ = {
 			isa = PBXGroup;
 			children = (
-				4AF6095C1D277DA900D6B01B /* Keychain macOS.h */,
-				4AF6095E1D277DA900D6B01B /* Info.plist */,
 			);
 			path = "Keychain macOS";
+			sourceTree = "<group>";
+		};
+		4AF609621D277EE100D6B01B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4AF609651D27803100D6B01B /* Keychain.h */,
+				4AF609631D277EF600D6B01B /* Info-macOS.plist */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +67,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF6095D1D277DA900D6B01B /* Keychain macOS.h in Headers */,
+				4AF609661D27803100D6B01B /* Keychain.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +89,7 @@
 			);
 			name = "Keychain macOS";
 			productName = "Keychain macOS";
-			productReference = 4AF609591D277DA900D6B01B /* Keychain macOS.framework */;
+			productReference = 4AF609591D277DA900D6B01B /* Keychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -195,14 +203,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Keychain macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubpetrik.Keychain-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Keychain;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -252,13 +260,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Keychain macOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jakubpetrik.Keychain-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Keychain;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
