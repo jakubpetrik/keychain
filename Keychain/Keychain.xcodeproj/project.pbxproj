@@ -11,6 +11,7 @@
 		4AF609681D27810900D6B01B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF609671D27810900D6B01B /* Keychain.swift */; };
 		4AFA15B41D27897F00975BEB /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA15B31D27897F00975BEB /* Info-iOS.plist */; };
 		4AFA15B51D2789BD00975BEB /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF609651D27803100D6B01B /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFA15B61D278D5300975BEB /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF609671D27810900D6B01B /* Keychain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFA15B61D278D5300975BEB /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
