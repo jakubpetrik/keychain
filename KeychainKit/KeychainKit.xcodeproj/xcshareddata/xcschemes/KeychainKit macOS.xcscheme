@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4AF609581D277DA900D6B01B"
-               BuildableName = "Keychain.framework"
-               BlueprintName = "Keychain macOS"
-               ReferencedContainer = "container:Keychain.xcodeproj">
+               BuildableName = "KeychainKit.framework"
+               BlueprintName = "KeychainKit macOS"
+               ReferencedContainer = "container:KeychainKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4AF609581D277DA900D6B01B"
-            BuildableName = "Keychain.framework"
-            BlueprintName = "Keychain macOS"
-            ReferencedContainer = "container:Keychain.xcodeproj">
+            BuildableName = "KeychainKit.framework"
+            BlueprintName = "KeychainKit macOS"
+            ReferencedContainer = "container:KeychainKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4AF609581D277DA900D6B01B"
-            BuildableName = "Keychain.framework"
-            BlueprintName = "Keychain macOS"
-            ReferencedContainer = "container:Keychain.xcodeproj">
+            BuildableName = "KeychainKit.framework"
+            BlueprintName = "KeychainKit macOS"
+            ReferencedContainer = "container:KeychainKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

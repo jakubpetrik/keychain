@@ -1,2 +1,2 @@
-# 🔑 keychain 
-Simple macOS keychain wrapper
+# 🔑 KeychainKit 
+Yet Another Keychain Wrapper 💁
