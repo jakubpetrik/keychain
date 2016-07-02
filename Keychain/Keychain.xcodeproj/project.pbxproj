@@ -24,6 +24,7 @@
 		4AFA15BC1D27907B00975BEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4AFA15BD1D27907B00975BEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4AFA15C01D27911000975BEB /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		4AFA15C11D2791C500975BEB /* Keychain.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Keychain.podspec; path = ../Keychain.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		4AFA15B71D278F2500975BEB /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				4AFA15C11D2791C500975BEB /* Keychain.podspec */,
 				4AFA15C01D27911000975BEB /* Package.swift */,
 				4AFA15BC1D27907B00975BEB /* LICENSE */,
 				4AFA15BD1D27907B00975BEB /* README.md */,
