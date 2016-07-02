@@ -12,6 +12,10 @@
 		4AFA15B41D27897F00975BEB /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA15B31D27897F00975BEB /* Info-iOS.plist */; };
 		4AFA15B51D2789BD00975BEB /* KeychainKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF609651D27803100D6B01B /* KeychainKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AFA15B61D278D5300975BEB /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF609671D27810900D6B01B /* Keychain.swift */; };
+		4AFA15C61D279F8500975BEB /* KeychainKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA15C21D279F8500975BEB /* KeychainKit.podspec */; };
+		4AFA15C71D279F8500975BEB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA15C31D279F8500975BEB /* LICENSE */; };
+		4AFA15C81D279F8500975BEB /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA15C41D279F8500975BEB /* Package.swift */; };
+		4AFA15C91D279F8500975BEB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA15C51D279F8500975BEB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +25,10 @@
 		4AF609671D27810900D6B01B /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
 		4AFA15AB1D27892800975BEB /* KeychainKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFA15B31D27897F00975BEB /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
-		4AFA15BC1D27907B00975BEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4AFA15BD1D27907B00975BEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4AFA15C01D27911000975BEB /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
-		4AFA15C11D2791C500975BEB /* KeychainKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = KeychainKit.podspec; path = ../KeychainKit.podspec; sourceTree = "<group>"; };
+		4AFA15C21D279F8500975BEB /* KeychainKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KeychainKit.podspec; sourceTree = "<group>"; };
+		4AFA15C31D279F8500975BEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4AFA15C41D279F8500975BEB /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		4AFA15C51D279F8500975BEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +81,10 @@
 		4AFA15B71D278F2500975BEB /* Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4AFA15C11D2791C500975BEB /* KeychainKit.podspec */,
-				4AFA15C01D27911000975BEB /* Package.swift */,
-				4AFA15BC1D27907B00975BEB /* LICENSE */,
-				4AFA15BD1D27907B00975BEB /* README.md */,
+				4AFA15C21D279F8500975BEB /* KeychainKit.podspec */,
+				4AFA15C31D279F8500975BEB /* LICENSE */,
+				4AFA15C41D279F8500975BEB /* Package.swift */,
+				4AFA15C51D279F8500975BEB /* README.md */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -189,7 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFA15C71D279F8500975BEB /* LICENSE in Resources */,
 				4AFA15B41D27897F00975BEB /* Info-iOS.plist in Resources */,
+				4AFA15C61D279F8500975BEB /* KeychainKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AFA15C91D279F8500975BEB /* README.md in Sources */,
+				4AFA15C81D279F8500975BEB /* Package.swift in Sources */,
 				4AF609681D27810900D6B01B /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
