@@ -21,6 +21,8 @@
 		4AF609671D27810900D6B01B /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
 		4AFA15AB1D27892800975BEB /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFA15B31D27897F00975BEB /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		4AFA15BC1D27907B00975BEB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4AFA15BD1D27907B00975BEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		4AF6094D1D277C5200D6B01B = {
 			isa = PBXGroup;
 			children = (
+				4AFA15B71D278F2500975BEB /* Metadata */,
 				4AF609621D277EE100D6B01B /* Sources */,
 				4AF6095A1D277DA900D6B01B /* Products */,
 			);
@@ -67,6 +70,15 @@
 				4AFA15B31D27897F00975BEB /* Info-iOS.plist */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		4AFA15B71D278F2500975BEB /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA15BC1D27907B00975BEB /* LICENSE */,
+				4AFA15BD1D27907B00975BEB /* README.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
