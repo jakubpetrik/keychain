@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4AF609661D27803100D6B01B /* Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF609651D27803100D6B01B /* Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF609681D27810900D6B01B /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF609671D27810900D6B01B /* Keychain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AF609591D277DA900D6B01B /* Keychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Keychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF609631D277EF600D6B01B /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Sources/Info-macOS.plist"; sourceTree = "<group>"; };
 		4AF609651D27803100D6B01B /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keychain.h; path = Sources/Keychain.h; sourceTree = "<group>"; };
+		4AF609671D27810900D6B01B /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4AF609621D277EE100D6B01B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4AF609671D27810900D6B01B /* Keychain.swift */,
 				4AF609651D27803100D6B01B /* Keychain.h */,
 				4AF609631D277EF600D6B01B /* Info-macOS.plist */,
 			);
@@ -104,6 +107,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5HATRH82HD;
 						DevelopmentTeamName = "Jakub Petrik";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF609681D27810900D6B01B /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
