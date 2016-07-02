@@ -44,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				4AF609621D277EE100D6B01B /* Sources */,
-				4AF6095B1D277DA900D6B01B /* Keychain macOS */,
-				4AFA15AC1D27892800975BEB /* Keychain iOS */,
 				4AF6095A1D277DA900D6B01B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,13 +57,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AF6095B1D277DA900D6B01B /* Keychain macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Keychain macOS";
-			sourceTree = "<group>";
-		};
 		4AF609621D277EE100D6B01B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,13 +66,6 @@
 				4AFA15B31D27897F00975BEB /* Info-iOS.plist */,
 			);
 			name = Sources;
-			sourceTree = "<group>";
-		};
-		4AFA15AC1D27892800975BEB /* Keychain iOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Keychain iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
